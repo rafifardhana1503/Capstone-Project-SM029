@@ -17,9 +17,19 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var modelHelper: ModelHelper
     private lateinit var imageView: ImageView
     private lateinit var predictionText: TextView
+    private lateinit var rekomendasiText: TextView
     private val PICK_IMAGE_REQUEST = 1
     private val REQUEST_IMAGE_CAPTURE = 2
     private lateinit var currentPhotoUri: Uri
+
+    private val rekomendasiMap = mapOf(
+    "Sehat" to "Tanaman dalam kondisi baik. Lanjutkan perawatan rutin.",
+    "Layu" to "Periksa kelembaban tanah dan pastikan penyiraman cukup.",
+    "Jamur" to "Gunakan fungisida dan pastikan sirkulasi udara baik.",
+    "Busuk" to "Potong bagian yang busuk dan perbaiki drainase.",
+    "Karat" to "Gunakan pestisida organik dan buang daun yang terkena.",
+    "Hama" to "Gunakan insektisida alami dan periksa tanaman secara rutin."
+    )
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +39,7 @@ class HomeActivity : AppCompatActivity() {
         modelHelper = ModelHelper(assets, "model.tflite")
         imageView = findViewById(R.id.imgLeaf)
         predictionText = findViewById(R.id.txtPrediction)
+        rekomendasiText = findViewById(R.id.txtRekomendasi)
 
         val btnChooseGallery = findViewById<Button>(R.id.btnChooseGallery)
         btnChooseGallery.setOnClickListener {
@@ -66,6 +77,8 @@ class HomeActivity : AppCompatActivity() {
             val hasil = if (index != -1) labels[index] else "Tidak diketahui"
 
             predictionText.text = "Prediksi: $hasil"
+            val rekomendasi = rekomendasiMap[hasil] ?: "Tidak ada rekomendasi tersedia."
+            rekomendasiText.text = "Rekomendasi: $rekomendasi"
         } else if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             val bitmap = BitmapFactory.decodeStream(contentResolver.openInputStream(currentPhotoUri))
 
@@ -79,6 +92,8 @@ class HomeActivity : AppCompatActivity() {
             val hasil = if (index != -1) labels[index] else "Tidak diketahui"
 
             predictionText.text = "Prediksi: $hasil"
+            val rekomendasi = rekomendasiMap[hasil] ?: "Tidak ada rekomendasi tersedia."
+            rekomendasiText.text = "Rekomendasi: $rekomendasi"
         }
     }
 
