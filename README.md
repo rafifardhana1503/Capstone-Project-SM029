@@ -25,7 +25,7 @@ Model `model_terlatih.tflite` dilatih menggunakan dataset citra daun teh yang di
 4. Aplikasi Mobile
 5. Penggunaan Aplikasi
 
-   [Video Demo](https://drive.google.com/file/d/1nssl01tRJJ8Uu2Y_cIkCwADAcndOQ3m3/view?usp=sharing)
+   [Video Demo]()
 
 ## 🧩 Kontribusi Kolaborasi
 Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
