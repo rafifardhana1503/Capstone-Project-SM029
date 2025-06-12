@@ -26,10 +26,11 @@
    ```
    Penggunaan Google Colab sudah menyediakan versi Python terbaru secara default. Sebagian besar library populer sudah kompatibel.
 4. Setup Android Studio
+
    Menginstal Andriod Studio Terbaru
    Menginstall SDK Android minimal versi API 21
    Mempunyai file model .tflite hasil training machine learningnya
-5. Setelah seluruh proses setup selesai, Anda bisa menjalankan skrip utama atau mulai melakukan pengembangan model.
+6. Setelah seluruh proses setup selesai, Anda bisa menjalankan skrip utama atau mulai melakukan pengembangan model.
    - Untuk menjalankan preprocessing data terdapat pada
      ```
      Preprocessing_Tea_Disease.ipynb
