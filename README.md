@@ -39,5 +39,5 @@ Model `model_terlatih.tflite` dilatih menggunakan dataset citra daun teh yang di
 Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
 - Kolaborasi bersama pihak terkait seperti Dinas Pertanian, Pelaku Pertanian, dan lainnya.
 - Penambahan jenis tanaman/penyakit baru
-- Perbaikan UI/UX
+- Peningkatan UI/UX
 - Optimalisasi model machine learning
