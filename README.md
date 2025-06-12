@@ -21,9 +21,14 @@ Model `model_terlatih.tflite` dilatih menggunakan dataset citra daun teh yang di
 
 1. Prasyarat tools
 2. Clone Repository
-3. Jalankan Skrip
-4. Aplikasi Mobile
-5. Penggunaan Aplikasi
+   Clone Repository 
+   ```
+   git clone [https://github.com/rafifardhana1503/Capstone-Project-SM029.git]
+   cd Capstone-Project-SM029
+   ```
+4. Jalankan Skrip
+5. Aplikasi Mobile
+6. Penggunaan Aplikasi
 
    Cara menggunakan aplikasi dapt dilihat pada [Video Demo]()
 
