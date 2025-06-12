@@ -55,7 +55,7 @@
    LensaTani.zip
    ```
 2. 
-   Kemudian untuk cara menggunakan aplikasi dapt dilihat pada [Video Demo]()
+   Kemudian untuk cara menggunakan aplikasi dapt dilihat pada [Video Demo](https://drive.google.com/file/d/1qQCqW577i-beGJSP4g2lE2grAG2-8MCm/view?usp=sharing)
 
 ## 🧩 Kontribusi Kolaborasi
 Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
