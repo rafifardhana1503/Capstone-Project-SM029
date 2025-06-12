@@ -19,8 +19,11 @@ Model `model_terlatih.tflite` dilatih menggunakan dataset citra daun teh yang di
 
 ## 📲 Cara Penggunaan
 
-1. s
-2. 
+1. Setup envrirontment
+2. Clone Repository
+3. Jalankan Skrip
+4. Aplikasi Mobile
+5. Penggunaan Aplikasi
 
 ## 🧩 Kontribusi Kolaborasi
 Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
