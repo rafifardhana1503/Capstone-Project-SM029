@@ -31,6 +31,7 @@ Model `model_terlatih.tflite` dilatih menggunakan dataset citra daun teh yang di
    
 6. Aplikasi Mobile
 7. Penggunaan Aplikasi
+   
    Pertama download aplikasi dari [Link]()
    Kemudian untuk cara menggunakan aplikasi dapt dilihat pada [Video Demo]()
 
