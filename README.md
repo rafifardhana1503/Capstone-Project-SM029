@@ -40,7 +40,9 @@
      Modelling_Tea_Disease.ipynb
      ```
    - Untuk melakukan deployment ke Android studio terdapat pada folder `Capstone`
-    Import Project dengan cara mendownload terlebih dahulu file project di dalam zip folder, kemudian tunggu hingga grandle selesai lalu nyalakan emulator dan terkahir run aplikasi
+     - Import Project dengan cara mendownload terlebih dahulu file project di dalam zip folder
+     - Tunggu hingga grandle selesai
+     - Nyalakan emulator kemudian run aplikasi
 ## 📱 Fitur Utama Produk
 
 - 📷 Deteksi penyakit daun menggunakan kamera atau galeri
@@ -55,8 +57,11 @@
    ```
    LensaTani.zip
    ```
-2. 
-   Kemudian untuk cara menggunakan aplikasi dapt dilihat pada [Video Demo](https://drive.google.com/file/d/1qQCqW577i-beGJSP4g2lE2grAG2-8MCm/view?usp=sharing)
+2. Install aplikasi pada Smartphone Android
+3. Setelah terinstall, fitur aplikasi sudah dapat digunakan 
+4. Cara penggunaan aplikasi dapat dilihat pada [Video Demo](https://drive.google.com/file/d/1qQCqW577i-beGJSP4g2lE2grAG2-8MCm/view?usp=sharing)
+
+Note: Jika fitur tangkapan layar (foto) membuat aplikasi force close, akses aplikasi untuk kamera perlu disetting secara manual. Hal ini dapat terjadi sesuai dengan smartphone yang digunakan
 
 ## 🧩 Kontribusi Kolaborasi
 Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
