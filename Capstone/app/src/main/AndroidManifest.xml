@@ -23,7 +23,6 @@
         android:theme="@style/Theme.Capstone"
         tools:targetApi="31">
 
-        <!-- ✅ PROVIDER HARUS DITARUH DI SINI, BUKAN SEBAGAI ATTR -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"

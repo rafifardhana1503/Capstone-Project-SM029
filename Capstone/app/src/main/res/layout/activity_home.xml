@@ -1,69 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- res/layout/activity_home.xml -->
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="24dp">
+        android:theme="@style/Theme.Capstone.AppBarOverlay">
 
-        <ImageView
-            android:id="@+id/imgLeaf"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_marginTop="50dp"
-            android:contentDescription="Preview Gambar"
-            android:scaleType="centerCrop" />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="Deteksi Daun Teh"
+            app:titleTextColor="@android:color/white"
+            app:popupTheme="@style/Theme.Capstone.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
 
-        <TextView
-            android:text="Deteksi Daun Teh"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="32dp"
+    <!-- Konten scroll -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:padding="24dp">
 
-        <Button
-            android:id="@+id/btnTakePhoto"
-            android:text="Ambil Foto"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#4CAF50"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnTakePhoto"
+                android:text="Ambil Foto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/btnChooseGallery"
-            android:text="Pilih dari Galeri"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp" />
+            <Button
+                android:id="@+id/btnChooseGallery"
+                android:text="Pilih dari Galeri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" />
 
-        
+            <ImageView
+                android:id="@+id/imgLeaf"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="24dp"
+                android:contentDescription="Preview Gambar"
+                android:scaleType="centerCrop" />
 
-        <!-- 🔽 Tambahan untuk menampilkan hasil deteksi -->
-        <TextView
-            android:id="@+id/txtPrediction"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hasil Prediksi Penyakit:"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:paddingTop="16dp"
-            android:textColor="#333333"
-            android:gravity="center" />
+            <TextView
+                android:id="@+id/txtPrediction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hasil prediksi akan muncul di sini"
+                android:textSize="16sp"
+                android:paddingTop="16dp"
+                android:textColor="#333333"
+                android:gravity="center" />
 
-        <TextView
-            android:id="@+id/txtRekomendasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Rekomendasi:"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/txtSolusi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rekomendasi akan ditampilkan di sini"
+                android:textSize="16sp"
+                android:textColor="#4CAF50"
+                android:paddingTop="8dp"
+                android:gravity="center" />
+        </LinearLayout>
+    </ScrollView>
 
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>
