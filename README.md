@@ -40,4 +40,4 @@ Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
 - Kolaborasi bersama pihak terkait seperti Dinas Pertanian, Pelaku Pertanian, dan lainnya.
 - Penambahan jenis tanaman/penyakit baru
 - Peningkatan UI/UX
-- Optimalisasi model machine learning
+- Optimisasi model machine learning
