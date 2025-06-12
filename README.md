@@ -3,6 +3,11 @@
 **LensaTani** adalah aplikasi Android yang memanfaatkan teknologi **machine learning** untuk mendeteksi penyakit tanaman dari **citra daun**, khususnya untuk tanaman lokal Indonesia seperti teh. Aplikasi ini dirancang untuk membantu petani, pelajar, dan praktisi pertanian dalam mengenali penyakit tanaman secara cepat, mudah, dan akurat.
 
 ---
+## 📂 Dataset & Model
+
+Model `model_terlatih.tflite` dilatih menggunakan dataset citra daun teh yang dikumpulkan melalui platform kaggle, dengan klasifikasi beberapa jenis penyakit umum. Untuk tahap preprocessing data dapat diakses melalui file `Preprocessing_Tea_Disease.ipynb` dan untuk tahap pengembangan model dapat diakses melalui file `Modelling_Tea_Disease.ipynb` pada repositori GitHub ini. Berikut dataset yang digunakan dalam proyek ini.
+- Raw Dataset: [Tea Leaf Disease Detection Data](https://www.kaggle.com/datasets/pavantejamedi/tea-leaf-disease-detection-data)
+- Preprocessing Dataset: [Preprocessing Tea Leaf Disease Dataset](https://drive.google.com/file/d/1nssl01tRJJ8Uu2Y_cIkCwADAcndOQ3m3/view?usp=sharing)
 
 ## 📱 Fitur Utama
 
@@ -14,7 +19,12 @@
 
 ## 📲 Cara Penggunaan
 
-1. 
+1. s
+2. 
 
-Link Dataset Raw: https://www.kaggle.com/datasets/pavantejamedi/tea-leaf-disease-detection-data \
-Link Drive Dataset Preprocessing: https://drive.google.com/file/d/1nssl01tRJJ8Uu2Y_cIkCwADAcndOQ3m3/view?usp=sharing 
+## 🧩 Kontribusi Kolaborasi
+Pengembangan proyek akan menjadi lebih baik dengan melakukan kontribusi terbuka
+- Kolaborasi bersama pihak terkait seperti Dinas Pertanian, Pelaku Pertanian, dan lainnya.
+- Penambahan jenis tanaman/penyakit baru
+- Perbaikan UI/UX
+- Optimalisasi model machine learning
