@@ -26,7 +26,9 @@
    ```
    Penggunaan Google Colab sudah menyediakan versi Python terbaru secara default. Sebagian besar library populer sudah kompatibel.
 4. Setup Android Studio
-   
+   Menginstal Andriod Studio Terbaru
+   Menginstall SDK Android minimal versi API 21
+   Mempunyai file model .tflite hasil training machine learningnya
 5. Setelah seluruh proses setup selesai, Anda bisa menjalankan skrip utama atau mulai melakukan pengembangan model.
    - Untuk menjalankan preprocessing data terdapat pada
      ```
@@ -37,7 +39,7 @@
      Modelling_Tea_Disease.ipynb
      ```
    - Untuk melakukan deployment ke Android studio terdapat pada folder `Capstone`
-
+    Import Project dengan cara mendownload terlebih dahulu file project di dalam zip folder, kemudian tunggu hingga grandle selesai lalu nyalakan emulator dan terkahir run aplikasi
 ## 📱 Fitur Utama Produk
 
 - 📷 Deteksi penyakit daun menggunakan kamera atau galeri
